@@ -1,0 +1,37 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Content Section */
+main {
+  margin-top: 90px; /* Adjust this value if needed based on header height */
+  margin-bottom: 90px;
+  padding: 20px;
+}
+
+/* Page Section Styles */
+.page {
+  margin-bottom: 20px;
+  padding-top: 20px; /* Space to ensure text is not hidden under header */
+}
+
+.page_description {
+  color: #333;
+}
+
+/* Footer Styles */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #138808; /* Green */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  z-index: 1000; /* Ensures footer is above other content */
+}

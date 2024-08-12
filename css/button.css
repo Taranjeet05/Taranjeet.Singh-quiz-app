@@ -1,0 +1,24 @@
+/* Hide Elements */
+.hidden {
+  display: none;
+}
+
+/* Button Styles */
+.quiz-section_answer-btn,
+.quiz-section_bookmark-btn {
+  margin: 5px 0;
+}
+
+.quiz-section_bookmark-btn {
+  margin-left: 5px;
+}
+
+/* Bookmark Icon Styles */
+.quiz-section_bookmark-btn i {
+  color: gray; /* Color when not bookmarked */
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.quiz-section_bookmark-btn i.bookmarked {
+  color: blue; /* Color when bookmarked */
+}
